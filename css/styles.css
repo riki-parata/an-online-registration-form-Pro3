@@ -1,0 +1,76 @@
+/* Layout Containers */
+
+.wrapper {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.main-header {
+    margin-top: 0;
+    background-color: aquamarine;
+}
+
+/* Styling */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 1.4em;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    background-color: #2d3945;
+}
+
+h2 {
+    font-size: 1.3em;
+    text-align: center;
+    color: #2d3945;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.blurb {
+    text-align: center;
+    margin-top: 9px;
+    color:#c8cbcf;
+}
+
+.top {
+    height: 3px;
+    background-color: black;
+    margin-top: 35px;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+    margin-top: 3px;
+}
+fieldset {
+    border: none;
+    margin: auto;
+    padding: 0;
+}
+legend {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+@media (min-width: 769px) {
+    
+/* Layout Containers */
+
+    .wrapper {
+        margin: 0 auto;
+        width: 70%;
+        max-width: 1000px;
+    }
+}
