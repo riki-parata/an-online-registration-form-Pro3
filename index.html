@@ -43,7 +43,7 @@
           />
           <br /><!--REQUIRED-->
 
-          <label for="mail">Email Address</label><br /><!--REQUIRED-->
+          <label for="mail">Email Address</label><br />
           <input
             type="email"
             id="mail"
@@ -61,8 +61,8 @@
           <label for="city">City</label><br />
           <input type="text" id="city" name="user_city" /><br />
 
-          <label for="region">Region</label><br />
-          <select id="region" name="user_region">
+          <label for="region">Region</label><br /><!--"Select region and arrow"-->
+          <select id="region" name="user_region" >
             <option disabled selected value></option>
             <optgroup label="North Island">
               <option value="northland">Northland</option>
@@ -96,15 +96,18 @@
           <div>
             <p>Select the newsletters you would like to receive</p>
           </div>
+          <div>
           <input type="checkbox" id="hnews" name="html_news" />
           <label for="hnews">HTML News</label><br />
-
+        </div>
+        <div>
           <input type="checkbox" id="cnews" name="css_news" />
           <label for="cnews">CSS News</label><br />
-
+        </div>
+        <div>
           <input type="checkbox" id="jnews" name="javascript_news" />
           <label for="jnews">Javascript News</label><br />
-
+        </div>
           <!--LABELS-->
           <div>
             <p>Newsletter format</p>
