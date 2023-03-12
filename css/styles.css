@@ -145,7 +145,11 @@ input[type="email"]::placeholder {
     color: lightgrey;
     padding: 0.5em;
   }
-@media (min-width: 769px) {
+
+
+/* MEDIA QUERIES */
+
+  @media (min-width: 768px) {
     
 /* Layout Containers */
 
